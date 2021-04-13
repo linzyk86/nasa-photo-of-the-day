@@ -8,7 +8,7 @@ export default function Card() {
   const [para, setPara] = useState([]);
   const [date, setDate] = useState([]);
 
-  useEffect(() => {
+  useEffect(() => { 
     axios
       .get(
         "https://api.nasa.gov/planetary/apod?api_key=95KYxZgmR5wqHqQsTfGiRnt4kmRpgfDetDl0PLE1"
