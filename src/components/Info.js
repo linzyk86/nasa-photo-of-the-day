@@ -43,7 +43,7 @@ const Info = props =>{
         <Section className = "container">
             <Header>
               <h1>NASA Photo Of The Day for: {props.date}</h1>
-            </Header>
+            </Header> 
             <Section>
                 <Img src = {props.photo}></Img>
             </Section>
